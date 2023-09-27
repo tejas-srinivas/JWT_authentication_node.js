@@ -3,8 +3,6 @@ const jwt = require("jsonwebtoken");
 const Joi = require("joi");
 const passwordComplexity = require("joi-password-complexity");
 
-const date = new Date()
-let localDate = date.toLocaleDateString()
 
 const userSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
