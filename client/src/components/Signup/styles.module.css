@@ -67,13 +67,11 @@
     font-size: 14px;
 }
 
-label {
+p {
     position: absolute;
-    padding-top: 30px;
     top: 61%;
     right: 24%;
     font-weight: 600;
-    /* cursor: pointer; */
 }
 
 .error_msg {

@@ -108,7 +108,7 @@ const Signup = () => {
                 onChange={handleChange}
                 required
               />
-              <label onClick={handleLabel}>{show ? "Hide" : "Show"}</label>
+              <p className="show__hide" onClick={handleLabel}>{show ? "Hide" : "Show"}</p>
               {error && <div className={styles.error_msg}>{error}</div>}
               <div className="submit__loading">
                 <button type="submit" className={styles.green_btn}>

@@ -73,7 +73,7 @@ const Login = () => {
               required
               className={styles.input}
             />
-            <label onClick={handleLabel}>{ show ? "Hide" : "Show"}</label>
+            <label className="login__show_hide" onClick={handleLabel}>{ show ? "Hide" : "Show"}</label>
             {error && <div className={styles.error_msg}>{error}</div>}
             <div className="submit__loading">
               <button type="submit" className={styles.green_btn}>
